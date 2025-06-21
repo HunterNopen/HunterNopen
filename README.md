@@ -19,7 +19,7 @@ I'm a **passionate student and developer** with a knack for solving complex prob
 ### 📌 Pinned Repositories  
 
 [![GetFacialExp](https://github-readme-stats.vercel.app/api/pin/?username=hunternopen&repo=GetFacialExp&theme=radical)](https://github.com/hunternopen/GetFacialExp)  
-*Live Demo on Streamlit:* __https://getfacialexp-rqw9yzkesyy6qct3dwrowv.streamlit.app/__ <br/>
+*Live Demo on Streamlit:* __https://hunternopen-getfacialexp.streamlit.app/__ <br/>
 **Tools:** *OpenCV, PyTorch, Streamlit, Torchvision* **| |** **Results:** *Acc = ~75%*
 
 [![DepressionRateAI](https://github-readme-stats.vercel.app/api/pin/?username=hunternopen&repo=DepressionRateAI&theme=radical)](https://github.com/hunternopen/DepressionRateAI)  
