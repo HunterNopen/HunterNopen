@@ -1,7 +1,7 @@
 Hi 👋 My name is Roman Herasymov
 ================================
 
-Data Scientist & ML | Former Full-Stack Developer
+AI Engineer & Data Scientist | Former Full-Stack Developer
 ---------------------------------
 
 The force has lead me to you, friend? \
@@ -18,17 +18,19 @@ I'm a **passionate student and developer** with a knack for solving complex prob
 
 ### 📌 Pinned Repositories  
 
-[![GetFacialExp](https://github-readme-stats.vercel.app/api/pin/?username=hunternopen&repo=GetFacialExp&theme=radical)](https://github.com/hunternopen/GetFacialExp)  
-*Live Demo on Streamlit:* __https://hunternopen-getfacialexp.streamlit.app/__ <br/>
+[![SkinGlanceCareRepo](https://img.shields.io/badge/Github_Repo-blue?logo=pytorch)](https://github.com/hunternopen/SkinGlanceCare)
+[![SkinGlanceCareHF](https://img.shields.io/badge/HuggingFace_Model-darkkhaki?logo=huggingface)](https://huggingface.co/spaces/HunterNope/SkinGlanceCare)  
+*Live Model Demo ob HuggingFace:* __https://huggingface.co/spaces/HunterNope/SkinGlanceCare__ <br/>
+**Tools:** *PyTorch, Flask, MLFlow, Git CI/CD, Docker* **| |** **Results:** *(F1 score on each class > 91%) & (Precision & Recall > 90%)*
+
+[![GetFacialExp](https://img.shields.io/badge/Github_Repo-blue?logo=pytorch)](https://github.com/hunternopen/GetFacialExp)
+[![SkinGlanceCareHF](https://img.shields.io/badge/Streamlit_App-cyan?logo=streamlit)](https://hunternopen-getfacialexp.streamlit.app)  
+*Live Demo on Streamlit:* __https://hunternopen-getfacialexp.streamlit.app__ <br/>
 **Tools:** *OpenCV, PyTorch, Streamlit, Torchvision* **| |** **Results:** *Acc = ~75%*
 
-[![DepressionRateAI](https://github-readme-stats.vercel.app/api/pin/?username=hunternopen&repo=DepressionRateAI&theme=radical)](https://github.com/hunternopen/DepressionRateAI)  
+[![DepressionRateAI](https://img.shields.io/badge/Github_Repo-blue?logo=pytorch)](https://github.com/hunternopen/DepressionRateAI)  
 *Live Demo on Streamlit:* To be added  **| |** **Article Flow:** https://docs.google.com/document/d/1p-5dWHP_y1_cB9ojg2oQ_C-L-HL5CJt8Bsg1K21GLjI/edit?tab=t.0<br/>
 **Tools:** *Tensorflow, Keras, Sklearn, Pandas* **| |** **Results:** *Acc = ~98% & RMSE loss < 0.1*
-
-[![SkinGlanceCare](https://github-readme-stats.vercel.app/api/pin/?username=hunternopen&repo=SkinGlanceCare&theme=radical)](https://github.com/hunternopen/SkinGlanceCare)  
-*Live Demo on ?Streamlit?:* To be added<br/>
-**Tools:** *PyTorch, Flask, MLFlow, Git CI/CD, Docker* **| |** **Results:** *F1 score on each class > 91% & Precision & Recall > 90%*
 
 ### 🛠 Skills  
 
@@ -69,7 +71,7 @@ I'm a **passionate student and developer** with a knack for solving complex prob
 
 #### **Customized Stats**  
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hunternopen&layout=compact&hide=html,css,php&langs_count=6&theme=tokyonight)
+[![Trophies Card](https://github-profile-trophy.vercel.app/?username=hunternopen)](https://github.com/hunternopen)
 
 ### 🤝 Let’s Collaborate!  
 I'm always excited to work on innovative projects or collaborate on open-source. Feel free to reach out!  
