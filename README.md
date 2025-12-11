@@ -67,11 +67,5 @@ I'm a **passionate student and developer** with a knack for solving complex prob
 
 ---
 
-### 📊 GitHub Highlights  
-
-#### **Customized Stats**  
-
-[![Trophies Card](https://github-profile-trophy.vercel.app/?username=hunternopen)](https://github.com/hunternopen)
-
 ### 🤝 Let’s Collaborate!  
 I'm always excited to work on innovative projects or collaborate on open-source. Feel free to reach out!  
