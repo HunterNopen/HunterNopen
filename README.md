@@ -21,7 +21,7 @@ I'm a **passionate student and developer** with a knack for solving complex prob
 [![SkinGlanceCareRepo](https://img.shields.io/badge/Github_Repo-blue?logo=pytorch)](https://github.com/hunternopen/SkinGlanceCare)
 [![SkinGlanceCareHF](https://img.shields.io/badge/HuggingFace_Model-darkkhaki?logo=huggingface)](https://huggingface.co/spaces/HunterNope/SkinGlanceCare)  
 *Live Model Demo ob HuggingFace:* __https://huggingface.co/spaces/HunterNope/SkinGlanceCare__ <br/>
-**Tools:** *PyTorch, Flask, MLFlow, Git CI/CD, Docker* **| |** **Results:** *(F1 score on each class > 91%) & (Precision & Recall > 90%)*
+**Tools:** *PyTorch, Flask, MLFlow, Git CI/CD, Docker* **| |** **Results:** *(F1 score on each class 88%) & (Precision & Recall > 86%)*
 
 [![GetFacialExp](https://img.shields.io/badge/Github_Repo-blue?logo=pytorch)](https://github.com/hunternopen/GetFacialExp)
 [![SkinGlanceCareHF](https://img.shields.io/badge/Streamlit_App-cyan?logo=streamlit)](https://hunternopen-getfacialexp.streamlit.app)  
