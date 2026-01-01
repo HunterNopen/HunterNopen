@@ -6,12 +6,13 @@ AI Engineer & Data Scientist | Former Software Engineer
 
 The force has led me to you, friend? \
 I'm a **passionate student and developer** with a solid software background and architecting new solutions!
-Currently it's - DeepLearning & MachineLearning systems — from experimentation in notebooks to robust, deployable services.
+Currently it's - DeepLearning & MachineLearning systems - from experimentation in notebooks to robust, deployable services.
 **Team player** Solo play is great, but I gotta always ask for a review & deployment someone else.
 
 * 🌍  I'm based in Poland, Gdansk
 * 🖥️  Explore my portfolio on [LinkedIn](https://www.linkedin.com/in/roman-herasymov)
 * ✉️  You can contact me at [gerasimovroman05@gmail.com](mailto:gerasimovroman05@gmail.com)
+* 📝  Explore my CV for a tailored summarization [OverLeaf](https://www.overleaf.com/read/nzcmsxfwmrqz#c6294e)
 * 🧠  Current zone of interest **Machine Learning, Deep Learning, and Data Science** 
 * ⚡  Fun fact: I have a love-hate relationship with React... but shhh, don't tell my team!
  
@@ -21,12 +22,13 @@ Currently it's - DeepLearning & MachineLearning systems — from experimentation
 
 #### 🩺 SkinGlanceCare - Early Skin Health Screening (ComputerVision + MLOps)
 
-[![SkinGlanceCareRepo](https://img.shields.io/badge/GitHub_Repo-blue?logo=github)](https://github.com/HunterNopen/SkinGlanceCare)
+[![SkinGlanceCareRepo - Application](https://img.shields.io/badge/GitHub_Repo_Application-blue?logo=github)](https://github.com/HunterNopen/SkinGlanceCare)
+[![SkinGlanceCareRepo - Model](https://img.shields.io/badge/GitHub_Repo_Model-blue?logo=github)](https://github.com/HunterNopen/SkinGlanceCare_Model)
 [![SkinGlanceCareHF](https://img.shields.io/badge/HuggingFace_Space-darkkhaki?logo=huggingface)](https://huggingface.co/spaces/HunterNope/SkinGlanceCare)  
 
-DL‑based solution for **early skin health checks from photos**. Includes model training, REST API, and deployment (OpenVINO quantization + HF space CPU)
+ComputerVision‑based solution for **early skin health checks from photos**. Includes model pipeline: preprocessing -> training & architecture, REST API & Flask, and deployment (OpenVINO quantization via NNCF + HF space CPU)
 
-- **Stack:** Python, PyTorch, Pandas, scikit‑learn, Flask, MLflow, Docker, CI/CD  
+- **Stack:** Python, PyTorch, Pandas, Scikit‑Learn, Flask & Gradio, MLflow, Docker, CI/CD
 - **Demo:** https://huggingface.co/spaces/HunterNope/SkinGlanceCare  
 - **Highlights:**
   - Built and evaluated classification models for skin lesion images
@@ -50,7 +52,7 @@ ML‑based solution for **fake news detection** with modern NLP tooling.
 
 ---
 
-#### 🛡️ AutoCenzurer - Intelligent Text Moderation with LLMs (WIP)
+#### 🛡️ AutoCenzurer - ASR (Automatic Speech Recognition) moderation & filtering using LLM Api & SLM Distillation (WIP)
 
 [![AutoCenzurer](https://img.shields.io/badge/GitHub_Repo-blue?logo=github)](https://github.com/HunterNopen/AutoCenzurer)  
 
@@ -58,9 +60,9 @@ Work‑in‑progress **text moderation / censorship engine** that combines class
 
 - **Stack (current):** Python, NLP, external LLM APIs  
 - **Planned core:** open‑source **distilled & quantized local LLM** for on‑device / self‑hosted inference + mobile inference 
-- **Goals:**
+- **Milestones:**
   - Provide configurable moderation policies (e.g., toxicity, hate speech, NSFW)
-  - Support both **cloud LLMs** and **local models** for privacy‑sensitive use‑cases
+  - Support both **LLM API** and **local models** for privacy‑sensitive use‑cases
   - Expose a clean API that can be integrated into web backends, chat applications, and moderation tools
 - ~~Results~~**Goal:** Quantized & Distilled NLP production-ready solution both for **Static & Real-Time Audio Filtering** as a quick and scalable solution!
 
