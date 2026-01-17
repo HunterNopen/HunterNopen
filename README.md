@@ -20,21 +20,41 @@ Currently it's - DeepLearning & MachineLearning systems - from experimentation i
 
 ### 📌 Featured AI Projects
 
-#### 🩺 SkinGlanceCare - Early Skin Health Screening (ComputerVision + MLOps)
+#### 🩺 SkinGlanceCare - Early Skin Health Screening (Diploma Thesis Project combining ComputerVision + MLOps)
 
 [![SkinGlanceCareRepo - Application](https://img.shields.io/badge/GitHub_Repo_Application-blue?logo=github)](https://github.com/HunterNopen/SkinGlanceCare)
 [![SkinGlanceCareRepo - Model](https://img.shields.io/badge/GitHub_Repo_Model-blue?logo=github)](https://github.com/HunterNopen/SkinGlanceCare_Model)
-[![SkinGlanceCareHF](https://img.shields.io/badge/HuggingFace_Space-darkkhaki?logo=huggingface)](https://huggingface.co/spaces/HunterNope/SkinGlanceCare)  
+[![SkinGlanceCareHF](https://img.shields.io/badge/HuggingFace_Space-darkkhaki?logo=huggingface)](https://huggingface.co/spaces/HunterNope/SkinGlanceCare)
+[![SkinGlanceCareHF](https://img.shields.io/badge/HuggingFace_Space-darkkhaki?logo=huggingface)](https://huggingface.co/spaces/HunterNope/SkinGlanceCare) 
 
-ComputerVision‑based solution for **early skin health checks from photos**. Includes model pipeline: preprocessing -> training & architecture, REST API & Flask, and deployment (OpenVINO quantization via NNCF + HF space CPU)
+ComputerVision‑based solution for **early skin health checks from photos**. Includes model pipeline: preprocessing -> training & architecture, REST API & Flask and deployment (OpenVINO quantization via NNCF + HF space CPU)
 
-- **Stack:** Python, PyTorch, Pandas, Scikit‑Learn, Flask & Gradio, MLflow, Docker, CI/CD
+- **Stack:** Python, PyTorch, OpenVINO, Flask & Gradio, MLflow, Docker, CI/CD, Pandas, Scikit‑Learn,
 - **Demo:** https://huggingface.co/spaces/HunterNope/SkinGlanceCare  
 - **Highlights:**
-  - Built and evaluated classification models for skin lesion images
-  - Packaged models into an API and deployed as a Hugging Face Space
-  - Tracked experiments and metrics using MLflow  
-- **Results:** F1 score per class ≈ **88%**, Precision & Recall > **86%**
+  - **Achieved >92\% Cancer Recall** using EfficientNet backbone with custom attention mechanism and specialized loss functions, after empirically evaluating multimodal approaches and rejecting ensemble methods due to deployment overhead
+  - **Reduced model size by 63.5\% (48MB => 17.5MB)** via INT8 quantization with OpenVINO \& NNCF, maintaining classification accuracy while enabling CPU-based inference
+  - **Built complete MLOps pipeline:** data preprocessing (15K+ images across 3 datasets), stratified sampling, experiment tracking (MLFlow), containerization and HuggingFace Space deployment
+  - **Architected \& documented production-ready skin lesion classification system** as thesis project, making engineering trade-offs between model performance, deployment complexity, and medical AI regulatory constraints in \textbf{200-page research paper}
+- **Results:** Diploma Thesis 200-page, End-2-End pipeline favoring Transperency \& Reproducibility, Cancer Recall >90%, Deployed, Quantized, Optimized Ready Solution
+
+---
+
+#### 🛡️ AutoCenzurer - ASR (Automatic Speech Recognition) Policy-Enforcement Tool using LLM API \& SLM Local
+
+[![AutoCenzurer](https://img.shields.io/badge/GitHub_Repo-blue?logo=github)](https://github.com/HunterNopen/AutoCenzurer) 
+[![SkinGlanceCareHF](https://img.shields.io/badge/HuggingFace_Space-darkkhaki?logo=huggingface)](https://huggingface.co/spaces/HunterNope/AutoCenzurer) - May NOT Work due to Free Tier Usage
+
+Policy-Enforcement Tool combining classic NLP pipelines with LLM‑based reasoning for **knowledge-distillation to local SLM**.  
+**Transparent - Reproducible - Explainable**
+
+- **Stack:** Python, NLP, Ffmpeg, Qwen \& Llama, Groq API 
+- **Demo:** open‑source **distilled & quantized local LLM** for on‑device / self‑hosted inference + mobile inference 
+- **Highlights:**
+  - **Designed explainable content moderation system** using hybrid architecture: **rule-based filtering** (regex, beam search) for transparency + **distilled SLM** for semantic understanding, explicitly avoiding pure ML black box approaches
+  - **Built synthetic training data pipeline** via LLM distillation: Groq-hosted Llama 7B (teacher) => **locally-deployed quantized LoRA Qwen 7B (student)**, achieving API independence while maintaining policy alignment
+  - **Chose rule-based + distilled model** over SOTA deep learning to maintain transparency and auditability for policy enforcement use cases
+- **Results:** Quantized & Distilled NLP production-ready solution both for **Static Audio Filtering** as a quick and scalable solution!
 
 ---
 
@@ -49,22 +69,6 @@ ML‑based solution for **fake news detection** with modern NLP tooling.
   - Combines traditional modeling with LLM‑powered components
   - Demonstrates end‑to‑end workflow: modeling, backend, and simple UI
 - **Results:** Ensemble Learning with Boosting Techniques helped to fine-tune and achieve the desired acc of 91%.
-
----
-
-#### 🛡️ AutoCenzurer - ASR (Automatic Speech Recognition) moderation & filtering using LLM Api & SLM Distillation (WIP)
-
-[![AutoCenzurer](https://img.shields.io/badge/GitHub_Repo-blue?logo=github)](https://github.com/HunterNopen/AutoCenzurer)  
-
-Work‑in‑progress **text moderation / censorship engine** that combines classic NLP pipelines with LLM‑based reasoning. **Static & Real-Time Audio Filtering**
-
-- **Stack (current):** Python, NLP, external LLM APIs  
-- **Planned core:** open‑source **distilled & quantized local LLM** for on‑device / self‑hosted inference + mobile inference 
-- **Milestones:**
-  - Provide configurable moderation policies (e.g., toxicity, hate speech, NSFW)
-  - Support both **LLM API** and **local models** for privacy‑sensitive use‑cases
-  - Expose a clean API that can be integrated into web backends, chat applications, and moderation tools
-- ~~Results~~**Goal:** Quantized & Distilled NLP production-ready solution both for **Static & Real-Time Audio Filtering** as a quick and scalable solution!
 
 ---
 
@@ -95,7 +99,7 @@ End‑to‑end **ML pipeline** for predicting depression risk, demonstrating cla
 - **Highlights:**
   - Complete pipeline: preprocessing, feature engineering, model training, evaluation, and testing
   - Comparison of different ML algorithms on tabular data
-- **Results:** Accuracy ≈ **98%**, RMSE < **0.1**
+- **Results:** Accuracy ≈ **92%**, RMSE < **0.1**
 
 ---
 
