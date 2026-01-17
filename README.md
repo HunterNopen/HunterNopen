@@ -4,8 +4,9 @@ Hi 👋 My name is Roman Herasymov
 AI Engineer & Data Scientist | Former Software Engineer
 ---------------------------------
 
-I'm a **passionate student and developer** with a solid software background specializing in production-ready Deep Learning systems. Currently completing my Computer Science degree (AI specialization) with a focus on medical AI \& explainable content moderation systems.
-Currently **completing diploma thesis** on production-ready medical AI systems (200-page research on skin lesion classification, deployment optimization and regulatory considerations).
+I'm a **passionate student and developer** with a solid software background specializing in production-ready Deep Learning systems. Currently completing my Computer Science degree (AI specialization) with a focus on medical AI & explainable content moderation systems.  
+  
+**"SkinGlanceCare: System for analyzing and classifying skin lesions based on Computer Vision"** completing diploma thesis on production-ready medical AI systems (200-page research on skin lesion classification, deployment optimization and regulatory considerations).
 
 * 🌍  I'm based in Poland, Gdansk
 * 🖥️  Explore my portfolio on [LinkedIn](https://www.linkedin.com/in/roman-herasymov)
@@ -29,15 +30,15 @@ ComputerVision‑based solution for **early skin health checks from photos**. In
 - **Stack:** Python, PyTorch, OpenVINO, Flask & Gradio, MLflow, Docker, CI/CD, Pandas, Scikit‑Learn,
 - **Demo:** https://huggingface.co/spaces/HunterNope/SkinGlanceCare  
 - **Highlights:**
-  - **Achieved >92\% Cancer Recall** using EfficientNet backbone with custom attention mechanism and specialized loss functions, after empirically evaluating multimodal approaches and rejecting ensemble methods due to deployment overhead
-  - **Reduced model size by 63.5\% (48MB => 17.5MB)** via INT8 quantization with OpenVINO \& NNCF, maintaining classification accuracy while enabling CPU-based inference
+  - **Achieved >92% Cancer Recall** using EfficientNet backbone with custom attention mechanism and specialized loss functions, after empirically evaluating multimodal approaches and rejecting ensemble methods due to deployment overhead
+  - **Reduced model size by 63.5% (48MB => 17.5MB)** via INT8 quantization with OpenVINO & NNCF, maintaining classification accuracy while enabling CPU-based inference
   - **Built complete MLOps pipeline:** data preprocessing (15K+ images across 3 datasets), stratified sampling, experiment tracking (MLFlow), containerization and HuggingFace Space deployment
-  - **Architected \& documented production-ready skin lesion classification system** as thesis project, making engineering trade-offs between model performance, deployment complexity, and medical AI regulatory constraints in **200-page research paper**
-- **Results:** Diploma Thesis 200-page, End-2-End pipeline favoring Transperency \& Reproducibility, Cancer Recall >90%, Deployed, Quantized, Optimized Ready Solution
+  - **Architected & documented production-ready skin lesion classification system** as thesis project, making engineering trade-offs between model performance, deployment complexity, and medical AI regulatory constraints in **200-page research paper**
+- **Results:** Diploma Thesis 200-page, End-2-End pipeline favoring Transperency & Reproducibility, Cancer Recall >90%, Deployed, Quantized, Optimized Ready Solution
 
 ---
 
-#### 🛡️ AutoCenzurer - ASR (Automatic Speech Recognition) Policy-Enforcement Tool using LLM API \& SLM Local
+#### 🛡️ AutoCenzurer - ASR (Automatic Speech Recognition) Policy-Enforcement Tool using LLM API & SLM Local
 
 [![AutoCenzurer](https://img.shields.io/badge/GitHub_Repo-blue?logo=github)](https://github.com/HunterNopen/AutoCenzurer) 
 [![SkinGlanceCareHF](https://img.shields.io/badge/HuggingFace_Space-darkkhaki?logo=huggingface)](https://huggingface.co/spaces/HunterNope/AutoCenzurer) - May NOT Work due to Free Tier Usage
@@ -45,8 +46,7 @@ ComputerVision‑based solution for **early skin health checks from photos**. In
 Policy-Enforcement Tool combining classic NLP pipelines with LLM‑based reasoning for **knowledge-distillation to local SLM**.  
 **Transparent - Reproducible - Explainable**
 
-- **Stack:** Python, NLP, Ffmpeg, Qwen \& Llama, Groq API 
-- **Demo:** open‑source **distilled & quantized local LLM** for on‑device / self‑hosted inference + mobile inference 
+- **Stack:** Python, NLP, Ffmpeg, Qwen & Llama, Groq API
 - **Highlights:**
   - **Designed explainable content moderation system** using hybrid architecture: **rule-based filtering** (regex, beam search) for transparency + **distilled SLM** for semantic understanding, explicitly avoiding pure ML black box approaches
   - **Built synthetic training data pipeline** via LLM distillation: Groq-hosted Llama 7B (teacher) => **locally-deployed quantized LoRA Qwen 7B (student)**, achieving API independence while maintaining policy alignment
@@ -82,21 +82,6 @@ Real‑time facial expression recognition using a CV stack and deep learning.
   - Implemented real‑time inference from webcam/video streams
   - Preprocessing, model training, and interactive UI for experimentation
 - **Results:** Accuracy ≈ **75%**
-
----
-
-#### 🧠 DepressionRateAI - Tabular ML Pipeline for Mental Health Risk
-
-[![DepressionRateAI](https://img.shields.io/badge/GitHub_Repo-blue?logo=github)](https://github.com/HunterNopen/DepressionRateAI)  
-
-End‑to‑end **ML pipeline** for predicting depression risk, demonstrating classical ML workflows.
-
-- **Stack:** TensorFlow, Keras, scikit‑learn, NumPy, Pandas  
-- **Write‑up:** https://docs.google.com/document/d/1p-5dWHP_y1_cB9ojg2oQ_C-L-HL5CJt8Bsg1K21GLjI/edit  
-- **Highlights:**
-  - Complete pipeline: preprocessing, feature engineering, model training, evaluation, and testing
-  - Comparison of different ML algorithms on tabular data
-- **Results:** Accuracy ≈ **92%**, RMSE < **0.1**
 
 ---
 
